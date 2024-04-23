@@ -1,0 +1,58 @@
+---
+title: "Formation Git et Gitlab"
+subtitle: "Diaporama au format digest à destination de la hiérarchie"
+date: today
+date-format: "DD/MM/YYYY"
+author: "SSP/DEMESIS"
+description: |
+  Support de formation au format digest de Git pour les utilisateurs de R au MASA
+
+slide-tone: false # for blind readers
+chalkboard: false # press the B key to toggle chalkboard
+transition: slide
+fig-cap-location: bottom
+
+toc: true
+toc-title: Sommaire
+toc-depth: 1
+toc-float: true
+
+# multiplex: true
+execute:
+  echo: false
+  warning: false
+  cache: false
+editor:
+  render-on-save: true
+---
+
+## Le versioning
+
+### Principe général :
+
+Le versioning consiste à conserver la version d'une entité logicielle quelconque 
+de façon à pouvoir la retrouver facilement même après l'apparition et la mise 
+en place de versions plus récentes.
+
+### Sans versioning
+
+Exemple de ce que l'on peut trouver sur un server :  
+
+![](img/cerise_sans_versionning.png)
+
+## Avantages du versioning
+
+**Le versioning permet de :**  
+
+- Travailler collectivement sur les mêmes fichiers **en même temps**  
+- Obtenir de la traçabilité : on sait qui a changé quoi, quand, comment et pourquoi
+- L'expérimentation lors des développements sans risques (à l'aide des branches)
+- Faire de la relecture (revues de codes...)
+- Voyager dans le temps
+
+**Avec une forge, il permet en plus de :**  
+
+- D'archiver le code  
+- D'apporter de la visibilité à vos projets  
+
+**=> Un usage qui se justifie même quand on est tout seul sur un projet !** 
