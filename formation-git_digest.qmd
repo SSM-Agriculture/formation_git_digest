@@ -26,7 +26,7 @@ editor:
   render-on-save: true
 ---
 
-## Le versioning
+## Le contrôle de version
 
 ### Principe général :
 
@@ -34,13 +34,13 @@ Le versioning consiste à conserver la version d'une entité logicielle quelconq
 de façon à pouvoir la retrouver facilement même après l'apparition et la mise 
 en place de versions plus récentes.
 
-### Sans versioning
+### Sans contrôle de version
 
 Exemple de ce que l'on peut trouver sur un server :  
 
 ![](img/cerise_sans_versionning.png)
 
-## Pourquoi faire du versioning ?
+## Pourquoi faire du contrôle de version ?
 
 **Le versioning permet de :**  
 
@@ -48,12 +48,12 @@ Exemple de ce que l'on peut trouver sur un server :
 - Obtenir de **la traçabilité** : on sait qui a changé quoi, quand, comment et pourquoi
 - **L'expérimentation** lors des développements sans risques (à l'aide des branches)
 - Faire de la **relecture** (revues de codes...)
-- *Voyager dans le temps**
+- **Voyager dans le temps**
 
-**Avec une forge comme gitlab, il permet en plus de :**  
+[**Avec une forge comme gitlab, il permet en plus de :**]{.red}  
 
-- D'archiver le code  
-- D'apporter de la visibilité à vos projets  
+- [D'archiver le code]{.red}  
+- [D'apporter de la visibilité à vos projets]{.red}  
 
 **=> Un usage qui se justifie même quand on est tout seul sur un projet !** 
 
@@ -76,7 +76,18 @@ Par exemple :
 - Configuration de Git sous Cerise et de sa liaison avec la [forge interne Gitlab](https://forge.agriculture.rie.gouv.fr/gitlab/)
 - Utilisation de Git au quotidien avec l'essentiel des commandes
 - Présentation des fonctionnalités majeures de Gitlab (groupes, système de ticketing, tableau kanban...)
-- Comment voyager dans le temps dans son projet ?
+- Comment revenir en arrière dans son projet ?
 - Comment travailler à plusieurs sur un même projet (notions de branches, workflow, conflits...)
 
-Quelques exercices pratiques accompagnent la formation pour que les participants puissent mettre en pratique les notions abordées.
+[Quelques exercices pratiques accompagnent la formation pour que les participants puissent mettre en pratique les notions abordées.]{.souligneRouge}
+
+## Calendrier des formations à venir
+
+Lien vers le diaporama complet : [c'est ici](https://ddotta.github.io/formation-git/#/title-slide)  
+
+Des formations prévues :  
+
+- Fin juin : à Toulouse
+- Mi septembre : à Paris
+
+En tant que nouvelle formation au catalogue du MASA, le nombre de places n'est pas limité et plusieurs sessions de formations pourront avoir lieu d'ici fin 2024.
