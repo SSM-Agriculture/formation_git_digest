@@ -40,19 +40,43 @@ Exemple de ce que l'on peut trouver sur un server :
 
 ![](img/cerise_sans_versionning.png)
 
-## Avantages du versioning
+## Pourquoi faire du versioning ?
 
 **Le versioning permet de :**  
 
-- Travailler collectivement sur les mêmes fichiers **en même temps**  
-- Obtenir de la traçabilité : on sait qui a changé quoi, quand, comment et pourquoi
-- L'expérimentation lors des développements sans risques (à l'aide des branches)
-- Faire de la relecture (revues de codes...)
-- Voyager dans le temps
+- **Travailler collectivement** sur les mêmes fichiers **en même temps**  
+- Obtenir de **la traçabilité** : on sait qui a changé quoi, quand, comment et pourquoi
+- **L'expérimentation** lors des développements sans risques (à l'aide des branches)
+- Faire de la **relecture** (revues de codes...)
+- *Voyager dans le temps**
 
-**Avec une forge, il permet en plus de :**  
+**Avec une forge comme gitlab, il permet en plus de :**  
 
 - D'archiver le code  
 - D'apporter de la visibilité à vos projets  
 
 **=> Un usage qui se justifie même quand on est tout seul sur un projet !** 
+
+## Qu'est-ce qu'on versionne ?
+
+<p style="text-align: center;">[On versionne les fichiers de type texte]{.content-box-green}</p>
+
+Par exemple :
+
+-   Les programmes R, Python, SAS...\
+-   La documentation au format texte, Markdown...\
+-   Les fichiers quarto, Rmarkdown...\
+-   Les fichiers de configuration de type yaml par exemple...
+
+[Tout le reste n'est pas (sauf exception) versionné !]{.red}
+
+## Points abordés dans la formation
+
+- Notions de bases sur le fonctionnement et l'intérêt du contrôle de version
+- Configuration de Git sous Cerise et de sa liaison avec la [forge interne Gitlab](https://forge.agriculture.rie.gouv.fr/gitlab/)
+- Utilisation de Git au quotidien avec l'essentiel des commandes
+- Présentation des fonctionnalités majeures de Gitlab (groupes, système de ticketing, tableau kanban...)
+- Comment voyager dans le temps dans son projet ?
+- Comment travailler à plusieurs sur un même projet (notions de branches, workflow, conflits...)
+
+Quelques exercices pratiques accompagnent la formation pour que les participants puissent mettre en pratique les notions abordées.
