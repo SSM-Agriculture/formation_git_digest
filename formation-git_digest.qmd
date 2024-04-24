@@ -1,5 +1,5 @@
 ---
-title: "Formation Git et Gitlab"
+title: "Formation digest Git et Gitlab"
 subtitle: "Diaporama au format digest à destination de la hiérarchie"
 date: today
 date-format: "DD/MM/YYYY"
@@ -36,28 +36,36 @@ en place de versions plus récentes.
 
 ### Sans contrôle de version
 
+::: columns
+::: {.column width="35%"}
 Exemple de ce que l'on peut trouver sur un server :  
+:::
 
-![](img/cerise_sans_versionning.png)
+::: {.column width="65%"}
+![](img/cerise_sans_versionning.png){fig-align="center"}  
+:::
+
+::::
+
 
 ## Pourquoi faire du contrôle de version ?
 
 **Le versioning permet de :**  
 
-- **Travailler collectivement** sur les mêmes fichiers **en même temps**  
-- Obtenir de **la traçabilité** : on sait qui a changé quoi, quand, comment et pourquoi
-- **L'expérimentation** lors des développements sans risques (à l'aide des branches)
-- Faire de la **relecture** (revues de codes...)
-- **Voyager dans le temps**
+- **Travailler collectivement** sur les mêmes fichiers **en même temps** => cf. [ici](https://ddotta.github.io/formation-git/#/git---un-mod%C3%A8le-distribu%C3%A9){target="_blank"}    
+- Obtenir de **la traçabilité** : on sait qui a changé quoi, quand, comment et pourquoi => cf. [exemple sur l'IPPAP](https://forge.agriculture.rie.gouv.fr/gitlab/ssp/bmis/ippap){target="_blank"}  
+- **L'expérimentation** lors des développements sans risques (à l'aide des branches) => cf. [ici](https://ddotta.github.io/formation-git/#/d%C3%A9finition-des-branches){target="_blank"}  
+- Faire de la **relecture** (revues de codes...) cf. [ici](https://ddotta.github.io/formation-git/#/les-relectures-ou-revues-de-code-avec-gitlab-12){target="_blank"}  
+- **Voyager dans le temps** cf. [ici](https://ddotta.github.io/formation-git/#/revenir-en-arri%C3%A8re-avec-gitlab-13){target="_blank"}  
 
 [**Avec une forge comme gitlab, il permet en plus de :**]{.red}  
 
 - [D'archiver le code]{.red}  
 - [D'apporter de la visibilité à vos projets]{.red}  
 
-**=> Un usage qui se justifie même quand on est tout seul sur un projet !** 
-
 ## Qu'est-ce qu'on versionne ?
+
+<br>
 
 <p style="text-align: center;">[On versionne les fichiers de type texte]{.content-box-green}</p>
 
@@ -81,13 +89,51 @@ Par exemple :
 
 [Quelques exercices pratiques accompagnent la formation pour que les participants puissent mettre en pratique les notions abordées.]{.souligneRouge}
 
+## Outils utilisés
+
+L'apprentissage de Git pendant les formations se fera avec les 3 outils suivants :  
+
+<br>
+
+::: columns
+::: {.column width="33%"}
+![](img/icone_rstudio.png){fig-align="center"}  
+
+Avec RStudio déjà installé sous Cerise pour <u>les commandes essentielles.</u> 
+
+:::
+
+::: {.column width="33%"}
+![](img/icone_terminal.png){fig-align="center"}  
+
+Avec le terminal disponible sous Cerise pour <u>les commandes plus spécifiques.</u> 
+
+:::
+
+::: {.column width="33%"}
+![](img/icone_gitssp.png){fig-align="center"}  
+
+Avec le package R `gitssp` pour utiliser Git <u>avec des fonctions R.</u> 
+
+:::
+
+::::
+
+<br>
+
+![](img/icone_gitlab.png){fig-align="center"}   
+
+Les fonctionnalités de la forge interne Gitlab seront également présentées pour illustrer les concepts présentés. 
+
+
 ## Calendrier des formations à venir
 
-Lien vers le diaporama complet : [c'est ici](https://ddotta.github.io/formation-git/#/title-slide)  
+**Lien vers le diaporama complet :** [c'est ici](https://ddotta.github.io/formation-git/#/title-slide)  
 
-Des formations prévues :  
+Des formations prévues en 2024 :  
 
 - Fin juin : à Toulouse
-- Mi septembre : à Paris
+- Fin septembre : à Paris
+- Mi octobre : à Lyon
 
-En tant que nouvelle formation au catalogue du MASA, le nombre de places n'est pas limité et plusieurs sessions de formations pourront avoir lieu d'ici fin 2024.
+En tant que nouvelle formation au catalogue du MASA, le nombre de places n'est pas limité et un effort pourra être fait sur le nombre de formations dispensées pour répondre au besoin si nécessaire.
