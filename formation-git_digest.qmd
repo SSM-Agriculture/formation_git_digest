@@ -1,9 +1,9 @@
 ---
-title: "Formation digest Git et Gitlab"
-subtitle: "Diaporama au format digest à destination de la hiérarchie"
+title: "Git et Gitlab"
+subtitle: "Sensibilisation de l'encadrement du SSP"
 date: today
-date-format: "DD/MM/YYYY"
-author: "SSP/DEMESIS"
+date-format: "07/05/2024"
+author: "DEMESIS/PAOS - Damien Dotta"
 description: |
   Support de formation au format digest de Git pour les utilisateurs de R au MASA
 
@@ -34,7 +34,7 @@ Le versioning consiste à conserver la version d'une entité logicielle quelconq
 de façon à pouvoir la retrouver facilement même après l'apparition et la mise 
 en place de versions plus récentes.
 
-### Sans contrôle de version
+### Sans outil de contrôle de version
 
 ::: columns
 ::: {.column width="35%"}
@@ -53,7 +53,7 @@ Exemple de ce que l'on peut trouver sur un server :
 **Le versioning permet de :**  
 
 - Obtenir de **la traçabilité** : on sait qui a changé quoi, quand, comment et pourquoi => cf. [exemple sur l'IPPAP](https://forge.agriculture.rie.gouv.fr/gitlab/ssp/bmis/ippap/-/issues/75){target="_blank"}  
-- **Travailler collectivement** sur les mêmes fichiers **en même temps** => cf. [ici](https://ddotta.github.io/formation-git/#/git---un-mod%C3%A8le-distribu%C3%A9){target="_blank"}    
+- **Travailler collectivement** sur les mêmes programmes **en même temps** => cf. [ici](https://ddotta.github.io/formation-git/#/git---un-mod%C3%A8le-distribu%C3%A9){target="_blank"}    
 - **L'expérimentation** lors des développements sans risques (à l'aide des branches) => cf. [ici](https://ddotta.github.io/formation-git/#/d%C3%A9finition-des-branches){target="_blank"}  
 - Faire de la **relecture** (revues de codes...) cf. [ici](https://ddotta.github.io/formation-git/#/les-relectures-ou-revues-de-code-avec-gitlab-12){target="_blank"}  
 - **Revenir en arrière** cf. [ici](https://ddotta.github.io/formation-git/#/revenir-en-arri%C3%A8re-avec-gitlab-13){target="_blank"}  
