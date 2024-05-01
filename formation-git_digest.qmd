@@ -1,9 +1,9 @@
 ---
 title: "Git et Gitlab"
-subtitle: "Sensibilisation de l'encadrement du SSP"
-date: today
-date-format: "07/05/2024"
-author: "DEMESIS/PAOS - Damien Dotta"
+subtitle: "Sensibilisation de l'encadrement du SSP par Damien Dotta"
+date: "07/05/2024"
+date-format: "DD/MM/YYYY"
+author: "DEMESIS/PAOS"
 description: |
   Support de formation au format digest de Git pour les utilisateurs de R au MASA
 
