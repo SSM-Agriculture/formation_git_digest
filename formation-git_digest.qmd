@@ -53,10 +53,10 @@ Exemple de ce que l'on peut trouver sur un server :
 **Le versioning permet de :**  
 
 - Obtenir de **la traçabilité** : on sait qui a changé quoi, quand, comment et pourquoi => cf. [exemple sur l'IPPAP](https://forge.agriculture.rie.gouv.fr/gitlab/ssp/bmis/ippap/-/issues/75){target="_blank"}  
-- **Travailler collectivement** sur les mêmes programmes **en même temps** => cf. [ici](https://ddotta.github.io/formation-git/#/git---un-mod%C3%A8le-distribu%C3%A9){target="_blank"}    
-- **L'expérimentation** lors des développements sans risques (à l'aide des branches) => cf. [ici](https://ddotta.github.io/formation-git/#/d%C3%A9finition-des-branches){target="_blank"}  
-- Faire de la **relecture** (revues de codes...) cf. [ici](https://ddotta.github.io/formation-git/#/les-relectures-ou-revues-de-code-avec-gitlab-12){target="_blank"}  
-- **Revenir en arrière** cf. [ici](https://ddotta.github.io/formation-git/#/revenir-en-arri%C3%A8re-avec-gitlab-13){target="_blank"}  
+- **Travailler collectivement** sur les mêmes programmes **en même temps** => cf. [ici](https://ssm-agriculture.github.io/formation-git/#/git---un-mod%C3%A8le-distribu%C3%A9){target="_blank"}    
+- **L'expérimentation** lors des développements sans risques (à l'aide des branches) => cf. [ici](https://ssm-agriculture.github.io/formation-git/#/d%C3%A9finition-des-branches){target="_blank"}  
+- Faire de la **relecture** (revues de codes...) cf. [ici](https://ssm-agriculture.github.io/formation-git/#/les-relectures-ou-revues-de-code-avec-gitlab-12){target="_blank"}  
+- **Revenir en arrière** cf. [ici](https://ssm-agriculture.github.io/formation-git/#/revenir-en-arri%C3%A8re-avec-gitlab-13){target="_blank"}  
 
 [**Avec une forge comme gitlab, il permet en plus de :**]{.red}  
 
@@ -128,7 +128,7 @@ Les fonctionnalités de la forge interne Gitlab seront également présentées p
 
 ## Calendrier des formations à venir
 
-**Lien vers le diaporama complet :** [c'est ici](https://ddotta.github.io/formation-git/#/title-slide)  
+**Lien vers le diaporama complet :** [c'est ici](https://ssm-agriculture.github.io/formation-git/#/title-slide)  
 
 Des formations prévues en 2024 :  
 
