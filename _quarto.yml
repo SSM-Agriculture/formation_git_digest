@@ -38,7 +38,7 @@ menu: {
 width: 1920
 height: 1080
 
-theme: css/Masa.scss
+theme: css/Masaf.scss
 css: [css/default.css, css/stylePerso.css]
 
 revealjs-plugins:
